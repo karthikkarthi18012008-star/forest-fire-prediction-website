@@ -117,7 +117,7 @@ Display Result
 
 💻 Installation
 1. Clone the Repository
-git clone <your-repository-url>
+git clone (https://github.com/karthikkarthi18012008-star/forest-fire-prediction-website.git)
 
 Navigate to the project directory:
 
