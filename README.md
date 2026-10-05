@@ -12,31 +12,6 @@ Forest fires are influenced by several environmental factors such as temperature
 
 This project demonstrates how a trained Machine Learning model can be converted into a working web application.
 
-### End-to-End Workflow
-
-```text
-Dataset
-   ↓
-Data Preprocessing
-   ↓
-Feature Engineering
-   ↓
-Model Training
-   ↓
-Ridge Regression
-   ↓
-StandardScaler
-   ↓
-Model Serialization
-   ↓
-Flask Application
-   ↓
-HTML Interface
-   ↓
-User Input
-   ↓
-FWI Prediction
-
 
 🚀 Features
 Forest Fire Weather Index prediction
@@ -139,30 +114,10 @@ Ridge Regression Model
 FWI Prediction
         ↓
 Display Result
-📂 Project Structure
-Flastk-Lab/
-│
-├── .vscode/
-│
-├── models/
-│   ├── ridge.pkl
-│   └── scaler.pkl
-│
-├── notebooks/
-│   ├── Algerian_forest_fires_dataset_UPDATE.csv
-│   ├── Model_Training.ipynb
-│   └── Ridge_Lasso_Regression.ipynb
-│
-├── templates/
-│   ├── home.html
-│   └── index.html
-│
-├── application.py
-├── requirements.txt
-└── README.md
+
 💻 Installation
 1. Clone the Repository
-git clone <your-repository-url>
+git clone (https://github.com/karthikkarthi18012008-star/forest-fire-prediction-website.git)
 
 Navigate to the project directory:
 
@@ -296,6 +251,54 @@ End-to-End Machine Learning Projects
 ✔ Pickle Model Deployment
 ✔ Real-World Forest Fire Dataset
 ✔ Machine Learning Model Integration
+
+### End-to-End Workflow
+
+```text
+Dataset
+   ↓
+Data Preprocessing
+   ↓
+Feature Engineering
+   ↓
+Model Training
+   ↓
+Ridge Regression
+   ↓
+StandardScaler
+   ↓
+Model Serialization
+   ↓
+Flask Application
+   ↓
+HTML Interface
+   ↓
+User Input
+   ↓
+FWI Prediction
+
+📂 Project Structure
+Flastk-Lab/
+│
+├── .vscode/
+│
+├── models/
+│   ├── ridge.pkl
+│   └── scaler.pkl
+│
+├── notebooks/
+│   ├── Algerian_forest_fires_dataset_UPDATE.csv
+│   ├── Model_Training.ipynb
+│   └── Ridge_Lasso_Regression.ipynb
+│
+├── templates/
+│   ├── home.html
+│   └── index.html
+│
+├── application.py
+├── requirements.txt
+└── README.md
+
 📜 License
 
 This project is created for educational and learning purposes.
